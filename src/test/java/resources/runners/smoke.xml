@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoke Suit" verbose="1">
+
+    <groups>
+
+     <run>
+
+         <include name="smoke"> </include>
+
+     </run>
+
+    </groups>
+
+    <test name="Smoke">
+        <classes>
+            <class name="com.orangehrmlive.demo.testsuite.UsersTest"></class>
+            <class name="com.orangehrmlive.demo.testsuite.LogInTest"></class>
+        </classes>
+    </test>
+</suite>
+
+
